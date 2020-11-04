@@ -5,6 +5,89 @@ Header Text - #553100
 Main background - #D4A76A*/
 
 header {
+    width: 100%;
 
-    outline: 1px;
+    margin-top: -20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #D4A76A
+    
 }
+
+
+body {
+    background-color: #FFDBAA;
+}
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.home {
+    width: 100px;
+    background-color: red;
+    padding-top: 4px;
+    margin: 10px
+}
+
+li {
+    width: 100px;
+    text-align: center;
+    color: white;
+    padding-top: 4px;
+    margin: 10px;
+    background-color: #805215 ;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.cards {
+    
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.card-1{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    margin: 40px;
+    border: black 1px solid;
+}
+
+.about-us {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border: black 1px solid;
+
+}
+
+p {
+    text-align: left;
+}
+.click {
+    background-color: #805215 ;
+    margin: 20px;
+    margin-top: 5px;
+    color: white;
+    height: 50px;
+    padding-top: 20px;
+    margin-top: 30px;
+
+
+    
+
+}
+
+
